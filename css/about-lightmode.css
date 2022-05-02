@@ -1,0 +1,22 @@
+.lightMode .section.team {
+  padding-top: 200px;
+}
+
+.lightMode .team .profiles .profile .Title,
+.lightMode .board .profiles .profile .Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lightMode .team .profiles .profile .Title img,
+.lightMode .board .profiles .profile .Title img {
+  width: 30px;
+}
+/*# sourceMappingURL=about-lightmode.css.map */

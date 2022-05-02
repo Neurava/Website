@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style></style>
+  </head>
+  <body>
+    <script>
+      window.setInterval(function () {
+        // Set interval for checking
+        var date = new Date(); // Create a Date object to find out what time it is
+        if (date.getHours() === 10 && date.getMinutes() === 54) {
+          // Check the time
+          // Do stuff
+          alert("time");
+        }
+      }, 600);
+    </script>
+  </body>
+</html>

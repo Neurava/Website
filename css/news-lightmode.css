@@ -1,0 +1,18 @@
+.lightMode .colunm-3 .post {
+  background: white;
+}
+
+.lightMode .colunm-3 .post:hover {
+  opacity: 1;
+  border: none;
+  background: linear-gradient(274.36deg, #493eff 0%, #0776ff 100%);
+  cursor: pointer;
+}
+
+.lightMode .colunm-3 .post:hover h4,
+.lightMode .colunm-3 .post:hover p,
+.lightMode .colunm-3 .post:hover h5,
+.lightMode .colunm-3 .post:hover .info {
+  color: white;
+}
+/*# sourceMappingURL=news-lightmode.css.map */

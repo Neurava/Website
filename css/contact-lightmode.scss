@@ -1,0 +1,59 @@
+.lightMode {
+  .section {
+    &.contact {
+      background: white;
+    }
+  }
+  .contact {
+    .row {
+      display: flex;
+      justify-content: center;
+      .colunmLeft {
+        width: 50%;
+      }
+      .colunmRight {
+        width: 50%;
+        input {
+          width: 100%;
+          border: 2px solid black;
+          padding: 20px 10px;
+          margin: 10px 0;
+          background: transparent;
+          color: black;
+
+          &:focus {
+            outline: none;
+            border: 2px solid #0018ff;
+          }
+        }
+        textarea {
+          margin: 10px 0;
+          padding: 20px 10px;
+          width: 100%;
+          border: 2px solid black;
+          background: transparent;
+          outline: none;
+          color: white;
+
+          &:focus {
+            outline: none;
+            border: 2px solid #0018ff;
+          }
+        }
+        button {
+          outline: none;
+          border: none;
+          text-transform: uppercase;
+          cursor: pointer;
+          font-weight: 500;
+          color: white;
+          font-family: HelveticaExtended;
+          font-size: 20px;
+          width: 100%;
+          padding: 20px 10px;
+          background: #0018ff;
+        }
+      }
+    }
+  }
+}

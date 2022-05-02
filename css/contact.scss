@@ -1,0 +1,152 @@
+@import "./variable.scss";
+
+.section {
+  padding: 200px 0 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.contact {
+    padding: 80px 0 50px 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin-top: 150px;
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+.contact {
+  .row {
+    display: flex;
+    justify-content: center;
+    .colunmLeft {
+      width: 50%;
+    }
+    .colunmRight {
+      width: 50%;
+      input {
+        width: 100%;
+        border: 2px solid white;
+        padding: 20px 10px;
+        margin: 10px 0;
+        background: transparent;
+        color: white;
+
+        &:focus {
+          outline: none;
+          border: 2px solid white;
+        }
+      }
+      textarea {
+        margin: 10px 0;
+        padding: 20px 10px;
+        width: 100%;
+        border: 2px solid white;
+        background: transparent;
+        outline: none;
+        color: white;
+
+        &:focus {
+          outline: none;
+          border: 2px solid white;
+        }
+      }
+      button {
+        outline: none;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 500;
+        color: white;
+        font-family: HelveticaExtended;
+        font-size: 20px;
+        width: 100%;
+        padding: 20px 10px;
+        background: #0018ff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    &.contact {
+      padding: 50px 0 50px 0;
+
+      h1 {
+        margin-top: 150px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .contact {
+    .row {
+      display: flex;
+      flex-direction: column;
+      .colunmLeft {
+        width: 100%;
+        font-family: HelveticaExtended;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .colunmRight {
+        width: 100% !important;
+        input {
+          width: 100%;
+          border: 2px solid white;
+          padding: 20px 10px;
+          margin: 10px 0;
+          background: transparent;
+          color: white;
+
+          &:focus {
+            outline: none;
+            border: 2px solid white;
+          }
+        }
+        textarea {
+          margin: 10px 0;
+          padding: 20px 10px;
+          width: 100%;
+          border: 2px solid white;
+          background: transparent;
+          outline: none;
+          color: white;
+
+          &:focus {
+            outline: none;
+            border: 2px solid white;
+          }
+        }
+        button {
+          outline: none;
+          border: none;
+          text-transform: uppercase;
+          cursor: pointer;
+          font-weight: 500;
+          color: white;
+          font-family: HelveticaExtended;
+          font-size: 20px;
+          width: 100%;
+          padding: 20px 10px;
+          background: #0018ff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,266 @@
+.darkMode {
+  header {
+    background-color: transparent !important;
+    transition-duration: 1s;
+    backdrop-filter: none;
+    &.blur {
+      backdrop-filter: blur(20px);
+    }
+    nav {
+      .logo {
+        width: 500px;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+      }
+    }
+  }
+  .section {
+    min-height: 100vh;
+    padding: 200px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.header {
+      // background: linear-gradient(
+      //   158deg,
+      //   rgba(38, 26, 178, 0.13) 15%,
+      //   rgba(255, 0, 118, 0.06) 40%,
+      //   rgba(255, 0, 118, 0) 70%
+      // );
+      h1 {
+        width: 70%;
+        margin-bottom: 32px;
+      }
+      .buttonGroup {
+        .button {
+          &.clear {
+            background: linear-gradient(
+              278.55deg,
+              rgba(255, 255, 255, 0.45) 36.84%,
+              rgba(255, 255, 255, 0.15) 63.75%
+            );
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-sizing: border-box;
+            box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(20px);
+          }
+          &.blue {
+            background: linear-gradient(274.36deg, #493eff 0%, #0776ff 100%);
+          }
+        }
+      }
+    }
+    &.features {
+      .colunm-3 {
+        .colunm-inner {
+          .itemWrapper {
+            .item {
+              background: #161829;
+            }
+          }
+        }
+      }
+    }
+    &.news {
+      background: #10111d;
+    }
+  }
+  .qoute {
+    background: linear-gradient(
+      127.99deg,
+      rgba(38, 26, 179, 0.44) 10.47%,
+      rgba(255, 0, 122, 0.1) 51.86%,
+      rgba(255, 0, 122, 0) 80%
+    );
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: center;
+
+    .qouteLogo {
+      width: 50px;
+      margin: auto;
+    }
+    .qouteText {
+      align-self: center;
+      text-align: justify;
+      font-size: 24px;
+      width: 80%;
+    }
+    .qouteName {
+      padding: 20px 0;
+      text-align: center;
+      width: 80%;
+      align-self: center;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  .partners {
+    padding: 200px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .row {
+      margin-top: 30px;
+      justify-content: space-between;
+
+      a {
+        img {
+          padding: 10px 24px;
+        }
+      }
+    }
+  }
+
+  .Newsletter {
+    height: 350px;
+    background: #10111d;
+    display: none;
+    justify-content: center;
+    padding: 100px 0;
+
+    .newsletterInner {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3 {
+        font-size: 32px !important;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      form {
+        width: 80%;
+      }
+
+      input {
+        background: transparent;
+        height: 65px;
+        padding: 20px;
+        width: 74%;
+        outline: none;
+        border: 2px solid white;
+      }
+
+      button {
+        background: linear-gradient(274.36deg, #493eff 0%, #0776ff 100%);
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        height: 68px;
+        width: 25%;
+      }
+    }
+  }
+
+  .news {
+    h2 {
+      margin-bottom: 100px;
+    }
+
+    .smallText {
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .postCarousel {
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .glide__slide {
+        display: block;
+        height: 450px;
+        padding: 40px;
+        border: 2px solid grey;
+        border-radius: 20px;
+        outline: none;
+        background: #192130;
+        opacity: 0.7;
+        transition: 0.3s;
+
+        h4 {
+          line-height: 32px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+        }
+        .info {
+          position: absolute;
+          bottom: 50px;
+
+          h4 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-family: HelveticaExtended;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+
+          a {
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            color: white;
+          }
+        }
+      }
+
+      .glide__slide--active {
+        opacity: 1;
+        border: none;
+        transform: scale(1.02);
+        background: linear-gradient(
+          127.99deg,
+          rgba(38, 26, 179, 0.44) 10.47%,
+          rgba(255, 0, 122, 0.1) 51.86%,
+          rgba(255, 0, 122, 0) 80%
+        );
+      }
+
+      .glide__slides {
+        overflow: visible;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .darkMode {
+    header {
+      transition-duration: 1s;
+      backdrop-filter: none;
+      &.blur {
+        backdrop-filter: blur(20px);
+      }
+      nav {
+        .logo {
+          width: 150px !important;
+          transition-duration: 1s;
+          transition-timing-function: ease-in-out;
+        }
+      }
+    }
+  }
+}

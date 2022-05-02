@@ -1,0 +1,28 @@
+.lightMode {
+  .section {
+    &.news {
+      // background: url(/assets/header_bg.svg);
+      // background-size: cover;
+    }
+  }
+
+  .colunm-3 {
+    .post {
+      background: white;
+
+      &:hover {
+        opacity: 1;
+        border: none;
+        background: linear-gradient(274.36deg, #493eff 0%, #0776ff 100%);
+        cursor: pointer;
+
+        h4,
+        p,
+        h5,
+        .info {
+          color: white;
+        }
+      }
+    }
+  }
+}

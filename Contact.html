@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/contact-lightmode.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone"
+    />
+  </head>
+
+  <body class="lightMode">
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="assets/neurava-white.png" alt="Logo" class="logo" />
+        </a>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="news.html"> News </a></li>
+          <li><a href="about.html"> Team</a></li>
+          <li><a href="contact.html"> Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav class="mobileNav active">
+        <div class="mobileMenuHeader">
+          <img src="assets/neurava-white.png" alt="Logo" class="logo" />
+          <div class="icon">
+            <span
+              id="open"
+              onclick="toggleMenu()"
+              class="material-icons-outlined open active"
+            >
+              menu
+            </span>
+            <span
+              id="close"
+              onclick="toggleMenu()"
+              class="material-icons-outlined close"
+            >
+              close
+            </span>
+          </div>
+        </div>
+        <div class="mobileMenu" id="mobileMenu">
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="news.html"> News </a></li>
+            <li><a href="about.html"> Team</a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- <div id="particles-lightmode"></div>
+    <div id="particles-js"></div> -->
+    <div class="section contact">
+      <div class="contentWrapper">
+        <h1>Contact Us</h1>
+        <div class="row">
+          <div class="colunmRight">
+            <form action="">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+              <textarea
+                type="textarea"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerInner">
+        <div class="top">
+          <img src="assets/neurava-white.png" alt="Logo" class="logo" />
+          <img src="assets/neurava.png" alt="Logo" class="logo lightMode" />
+          <ul class="nav">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="news.html"> News </a></li>
+            <li><a href="about.html"> About Us </a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="bottom">
+          <div class="copywrite">
+            Copyright © 2021 Neurava - All Rights Reserved.
+          </div>
+          <div class="socialmedia"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/menu.js" charset="utf-8"></script>
+  <script
+    src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
+    charset="utf-8"
+  ></script>
+  <script
+    src="https://threejs.org/examples/js/libs/stats.min.js"
+    charset="utf-8"
+  ></script>
+  <script src="assets/js/particles.js" charset="utf-8"></script>
+  <script src="assets/js/particles-lightmode.js" charset="utf-8"></script>
+  <script src="assets/js/lightmodecontroller.js" charset="utf-8"></script>
+</html>

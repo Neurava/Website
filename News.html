@@ -1,0 +1,95 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/news-lightmode.css" />
+    <link rel="stylesheet" href="css/news-darkmode.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone"
+    />
+  </head>
+  <body class="lightMode">
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="assets/neurava-white.png" alt="Logo" class="logo" />
+        </a>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="news.html"> News </a></li>
+          <li><a href="about.html"> Team </a></li>
+          <li><a href="contact.html"> Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav class="mobileNav active">
+        <div class="mobileMenuHeader">
+          <img src="assets/neurava-white.png" alt="Logo" class="logo" />
+          <div class="icon">
+            <span
+              id="open"
+              onclick="toggleMenu()"
+              class="material-icons-outlined open active"
+            >
+              menu
+            </span>
+            <span
+              id="close"
+              onclick="toggleMenu()"
+              class="material-icons-outlined close"
+            >
+              close
+            </span>
+          </div>
+        </div>
+        <div class="mobileMenu" id="mobileMenu">
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="news.html"> News </a></li>
+            <li><a href="about.html"> Team </a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="section news">
+      <div class="contentWrapper">
+        <h1>News</h1>
+        <div id="newsDiv" class="colunm-3"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerInner">
+        <div class="top">
+          <img src="assets/neurava-white.png" alt="Logo" class="logo" />
+          <ul class="nav">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="news.html"> News </a></li>
+            <li><a href="about.html"> About Us </a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="bottom">
+          <div class="copywrite">
+            Copyright © 2021 Neurava - All Rights Reserved.
+          </div>
+          <div class="socialmedia"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/menu.js" charset="utf-8"></script>
+  <script src="json/tool.js"></script>
+  <script src="assets/js/lightmodecontroller.js" charset="utf-8"></script>
+  <script></script>
+</html>

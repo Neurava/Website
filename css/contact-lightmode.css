@@ -1,0 +1,64 @@
+.lightMode .section.contact {
+  background: white;
+}
+
+.lightMode .contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lightMode .contact .row .colunmLeft {
+  width: 50%;
+}
+
+.lightMode .contact .row .colunmRight {
+  width: 50%;
+}
+
+.lightMode .contact .row .colunmRight input {
+  width: 100%;
+  border: 2px solid black;
+  padding: 20px 10px;
+  margin: 10px 0;
+  background: transparent;
+  color: black;
+}
+
+.lightMode .contact .row .colunmRight input:focus {
+  outline: none;
+  border: 2px solid #0018ff;
+}
+
+.lightMode .contact .row .colunmRight textarea {
+  margin: 10px 0;
+  padding: 20px 10px;
+  width: 100%;
+  border: 2px solid black;
+  background: transparent;
+  outline: none;
+  color: white;
+}
+
+.lightMode .contact .row .colunmRight textarea:focus {
+  outline: none;
+  border: 2px solid #0018ff;
+}
+
+.lightMode .contact .row .colunmRight button {
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  color: white;
+  font-family: HelveticaExtended;
+  font-size: 20px;
+  width: 100%;
+  padding: 20px 10px;
+  background: #0018ff;
+}
+/*# sourceMappingURL=contact-lightmode.css.map */

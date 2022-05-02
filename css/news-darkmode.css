@@ -1,0 +1,13 @@
+.darkMode .colunm-3 .post {
+  background: #192130;
+}
+
+.darkMode .colunm-3 .post a {
+  color: white;
+}
+
+.darkMode .colunm-3 .post:hover {
+  background: linear-gradient(127.99deg, rgba(38, 26, 179, 0.44) 10.47%, rgba(255, 0, 122, 0.1) 51.86%, rgba(255, 0, 122, 0) 80%);
+  cursor: pointer;
+}
+/*# sourceMappingURL=news-darkmode.css.map */

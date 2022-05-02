@@ -1,0 +1,22 @@
+.darkMode .section.team {
+  padding-top: 200px;
+}
+
+.darkMode .team .profiles .profile .Title,
+.darkMode .board .profiles .profile .Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.darkMode .team .profiles .profile .Title img,
+.darkMode .board .profiles .profile .Title img {
+  width: 30px;
+}
+/*# sourceMappingURL=about-darkmode.css.map */

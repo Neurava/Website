@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,SAFK,CACP,SAAS,CACP,KAAK,CAAC;EACJ,UAAU,EAAE,OAAO;CAcpB;;AAjBL,AAIM,SAJG,CACP,SAAS,CACP,KAAK,CAEH,CAAC,CAAC;EACA,KAAK,EAAE,KAAK;CACb;;AANP,AAQM,SARG,CACP,SAAS,CACP,KAAK,AAMF,MAAM,CAAC;EACN,UAAU,EAAE,mHAKX;EACD,MAAM,EAAE,OAAO;CAChB",
+    "sources": [
+        "news-darkmode.scss"
+    ],
+    "names": [],
+    "file": "news-darkmode.css"
+}

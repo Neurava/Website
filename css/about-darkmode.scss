@@ -1,0 +1,23 @@
+.darkMode {
+  .section {
+    &.team {
+      padding-top: 200px;
+    }
+  }
+
+  .team,
+  .board {
+    .profiles {
+      .profile {
+        .Title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          img {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
+}
