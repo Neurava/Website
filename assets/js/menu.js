@@ -2,7 +2,7 @@ var menu = document.getElementById("mobileMenu");
 var menuIconOpen = document.getElementById("open");
 var menuIconClose = document.getElementById("close");
 var siteLogo = document.getElementById("siteLogo");
-var msiteLogo = document.getElementById("msiteLogo");
+var mSiteLogo = document.getElementById("msiteLogo");
 var header = document.getElementById("header");
 var navText = document.getElementById("navText");
 
@@ -26,7 +26,7 @@ function scrollFunction() {
     header.style.background = "#285aff";
     header.classList.add("blur");
     siteLogo.src = "assets/neurava-white.png";
-    msiteLogo.src = "assets/neurava-white.png";
+    mSiteLogo.src = "assets/neurava-white.png";
     navText.classList.remove("light");
   } else {
     siteLogo.style.width = "500px";
@@ -34,10 +34,11 @@ function scrollFunction() {
     header.classList.remove("blur");
     if (document.body.classList.contains("lightMode")) {
       siteLogo.src = "assets/neurava.png";
+      mSiteLogo.src = "assets/neurava.png";
     } else {
       siteLogo.src = "assets/neurava-alt.png";
+      mSiteLogo.src = "assets/neurava-alt.png";
     }
-    msiteLogo.src = "assets/neurava.png";
     navText.classList.add("light");
   }
 }
