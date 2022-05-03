@@ -675,7 +675,7 @@ header nav.mobileNav {
 
 .team .profiles .profile img,
 .board .profiles .profile img {
-  width: 100%;
+  width: 95%;
 }
 
 .team .profiles .profile .info,
@@ -685,7 +685,7 @@ header nav.mobileNav {
 
 .team .profiles .profile .info h2,
 .board .profiles .profile .info h2 {
-  font-size: 36px;
+  font-size: 34px;
   margin-bottom: 10px;
 }
 
