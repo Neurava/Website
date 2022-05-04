@@ -299,13 +299,14 @@
       align-items: center;
 
       a {
+        width: 45%;
         img {
-          width: 170px;
+          width: 100%;
           padding: 0px;
         }
       }
       .ucb {
-        width: 170px;
+        width: 45%;
         display: flex;
         justify-content: center;
         img {

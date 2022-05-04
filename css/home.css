@@ -993,12 +993,15 @@ header nav.mobileNav {
         -ms-flex-align: center;
             align-items: center;
   }
+  .partners .row a {
+    width: 45%;
+  }
   .partners .row a img {
-    width: 170px;
+    width: 100%;
     padding: 0px;
   }
   .partners .row .ucb {
-    width: 170px;
+    width: 45%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
