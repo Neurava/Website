@@ -11,7 +11,7 @@ window.setInterval(function () {
   //Calling the function to switch the linked in icon
   iconSwitch(); //VG OG commented
 
-  //VG  
+  //VG
   //Calling the function to switch the linked in icon
   // logoSwitch();
 
@@ -31,12 +31,12 @@ window.setInterval(function () {
 function logoSwitch() {
   if (document.body.classList.contains("lightMode")) {
     siteLogo.src = "assets/neurava.png";
-    mobileSiteLogo.src = "assets/neurava.png";
+    mSiteLogo.src = "assets/neurava.png";
     logofour.src = "assets/logos/4-dark.png";
     logoseven.src = "assets/logos/7-dark.png";
   } else {
-    mobileSiteLogo.src = "assets/neurava-alt.png";
     siteLogo.src = "assets/neurava-alt.png";
+    mSiteLogo.src = "assets/neurava-alt.png";
     logofour.src = "assets/logos/4.png";
     logoseven.src = "assets/logos/7.png";
   }
