@@ -171,14 +171,17 @@
     -webkit-transition-duration: 1s;
             transition-duration: 1s;
   }
-  .lightMode nav .logo {
+  .lightMode header {
+    position: absolute;
+  }
+  .lightMode header nav .logo {
     width: 150px !important;
     -webkit-transition-duration: 1s;
             transition-duration: 1s;
     -webkit-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
   }
-  .lightMode nav .logo.light {
+  .lightMode header nav .logo.light {
     display: none;
     width: 200px;
     -webkit-transition-duration: 1s;

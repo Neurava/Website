@@ -543,7 +543,7 @@ header nav.mobileNav {
     display: flex;
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 768px;
     z-index: 9000;
@@ -640,6 +640,8 @@ header nav.mobileNav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .team .profiles .profile,
@@ -647,6 +649,7 @@ header nav.mobileNav {
   width: 32%;
   cursor: pointer;
   text-decoration: none;
+  margin: 30px 0;
 }
 
 .team .profiles .profile .Title,
@@ -675,7 +678,7 @@ header nav.mobileNav {
 
 .team .profiles .profile img,
 .board .profiles .profile img {
-  width: 95%;
+  width: 100%;
 }
 
 .team .profiles .profile .info,

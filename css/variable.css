@@ -543,7 +543,7 @@ header nav.mobileNav {
     display: flex;
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 768px;
     z-index: 9000;

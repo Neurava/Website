@@ -160,16 +160,19 @@
   .lightMode {
     backdrop-filter: none;
     transition-duration: 1s;
-    nav {
-      .logo {
-        width: 150px !important;
-        transition-duration: 1s;
-        transition-timing-function: ease-in-out;
-        &.light {
-          display: none;
-          width: 200px;
+    header {
+      position: absolute;
+      nav {
+        .logo {
+          width: 150px !important;
           transition-duration: 1s;
           transition-timing-function: ease-in-out;
+          &.light {
+            display: none;
+            width: 200px;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+          }
         }
       }
     }
