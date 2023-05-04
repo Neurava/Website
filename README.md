@@ -1,2 +1,2 @@
 # website
-go to netlify and login and verify deploy
+login to Netlify to confirm deploy
