@@ -8,7 +8,7 @@ const GLOBAL_NEWS = [
   {
     title:
     "Neurava selected among top 5 early stage MedTech Startups at 2023 MedTech Innovator",
-    date: "Sep 28, 2023",
+    date: "Sept 28, 2023",
     link: "https://medtechinnovator.org/medtech-innovator-announces-2023-grand-prize-finalists/"
   },
   {
@@ -20,7 +20,7 @@ const GLOBAL_NEWS = [
   {
     title:
       "Neurava awarded Innovation of the Year 2022",
-    date: "Apr 23, 2022",
+    date: "April 23, 2022",
     link: "https://techpoint.org/2022/04/neurava-wins-innovation-of-the-year-mira-award/"
   },
   {
@@ -37,13 +37,13 @@ const GLOBAL_NEWS = [
   {
     title:
       "Neurava wins the Southwest National Pediatric Device Consortium award at RBPC 21",
-    date: "Apr 09, 2021",
+    date: "April 09, 2021",
     link: "https://houston.innovationmap.com/2021-rice-business-plan-competition-winners-2652291624.html",
   },
   {
     title:
       "Neurava selected into the top 54 startups at the prestigious 2021 Rice Business Plan Competition",
-    date: "Apr 02, 2021",
+    date: "April 02, 2021",
     link: "https://rbpc.rice.edu/2021-Competition/2021-startups",
   },
   {
@@ -53,7 +53,7 @@ const GLOBAL_NEWS = [
   },
   {
     title: "Device Could Alert a Potential Deadly Epileptic Event Looms",
-    date: "Sep 30, 2020",
+    date: "Sept 30, 2020",
     link: "https://www.insideindianabusiness.com/story/42703317/device-could-alert-a-potential-deadly-epileptic-event-looms",
   },
   {
