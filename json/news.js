@@ -91,7 +91,7 @@ GLOBAL_NEWS.forEach((news) => {
         <h4>
           ${news.title}
         </h4>
-        <div class="info">
+        <div class="cardInfo">
           <h4>${news.date}</h4>
           <a target="_blank" href="${news.link}">
             Read More

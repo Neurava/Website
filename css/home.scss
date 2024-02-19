@@ -165,7 +165,9 @@
     justify-content: center;
 
     .glide__slide {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       height: 450px;
       padding: 40px;
       border: 2px solid grey;
@@ -180,9 +182,8 @@
         font-family: "Poppins", sans-serif;
         font-weight: 600;
       }
-      .info {
-        position: absolute;
-        bottom: 50px;
+
+      .cardInfo {
 
         h4 {
           font-size: 16px;
