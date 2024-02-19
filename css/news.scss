@@ -31,7 +31,9 @@
   flex-wrap: wrap;
 
   .post {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 450px;
     margin-bottom: 30px;
     width: 32%;
@@ -53,9 +55,6 @@
       font-weight: 600;
     }
     .info {
-      //   position: absolute;
-      margin-top: 150px;
-      //   bottom: 100px;
 
       h4 {
         font-size: 16px;
