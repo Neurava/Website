@@ -26,7 +26,7 @@ const GLOBAL_NEWS = [
   {
     title:
       "Neurava receives a strategic investment from global epilepsy leaders UCB",
-    date: "Dex 03, 2021",
+    date: "Dec 03, 2021",
     link: "https://www.ucb-usa.com/stories-media/UCB-U-S-News/detail/article/unleashing-power-digital-solutions-epilepsy-care",
   },
   {
