@@ -1,7 +1,7 @@
 const GLOBAL_NEWS = [
   {
     title: 
-      "Neurava receives $25,0000 non-dilutive award as a finalist of the 2023 MedTech Innovator",
+      "Neurava receives $25,000 non-dilutive award as a finalist of the 2023 MedTech Innovator",
     date: "Oct 11, 2023",
     link: "https://finance.yahoo.com/news/medtech-innovator-names-strokedx-2023-150000569.html"
   },
